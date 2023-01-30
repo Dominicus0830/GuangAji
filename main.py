@@ -30,5 +30,5 @@ async def on_ready():
 async def notice(interaction: discord.Interaction):
     await interaction.response.send_modal(MyModal())
 
-bot.run("봇토큰") #봇 토큰을 입력하세요.
+bot.run("TOKEN") #봇 토큰을 입력하세요.
 
